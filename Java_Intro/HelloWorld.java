@@ -1,4 +1,4 @@
-package CSC1350_Fall24;
+package CSC1350_Fall24.Java_Intro;
 
 public class HelloWorld {
     public static void main(String[] args) {

@@ -30,7 +30,7 @@ public class Casting {
         int char_a_toInt = 'a';
 
         System.out.println(char_a);
-        System.out.println(char_a_toInt);
+        System.out.println(char_a_toInt); //implicit casts char to int
         System.out.println((char)char_a_toInt);
         System.out.println((char)(97));
     }

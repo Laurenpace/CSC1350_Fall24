@@ -1,6 +1,6 @@
 package CSC1350_Fall24.Operators;
 
-public class CompoundOperators {
+public class AugmentedAssignmentOperators {
     public static void main(String[] args) {
         int x = 5;
         x += 1;

@@ -7,8 +7,8 @@ public class AugmentedAssignmentOperators {
         System.out.println(x);
 
         int y = 5;
-        x -= 3;
-        System.out.println(x);
+        y -= 3;
+        System.out.println(y);
 
         int z = 10;
         z *= 2;

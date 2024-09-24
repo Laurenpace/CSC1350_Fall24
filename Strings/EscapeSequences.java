@@ -6,7 +6,8 @@ public class EscapeSequences {
         System.out.println("They said \"Hi\"");
         System.out.println("I can tab over the follow word with \\t: \ttab");
         System.out.println("backslash\\");
-        System.out.println("escape new line character \\n");
+        System.out.println("escape new line character \n");
+        System.out.println("another");
 
     }
 }

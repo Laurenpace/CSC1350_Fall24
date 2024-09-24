@@ -8,6 +8,8 @@ public class Concatenation {
 
         System.out.println(newString);
 
+        String anotherString = "bob" + second;
+        System.out.println(anotherString);
 
         int num = 5;
 

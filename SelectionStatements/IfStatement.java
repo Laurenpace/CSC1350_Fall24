@@ -9,7 +9,6 @@ public class IfStatement {
         int num = in.nextInt();
         if (num > 10) {
             System.out.println("You entered a number greater than 10.");
-            num++;
         } else if (num < 10) {
             System.out.println("You entered a number less than 10.");
         } else {

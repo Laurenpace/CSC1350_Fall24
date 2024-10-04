@@ -5,5 +5,9 @@ public class MathLibrary {
         System.out.println(Math.pow(2, 2));
         double var = Math.abs(-8);
         System.out.println(var);
+
+        System.out.println(Math.max(4, 9));
+        int num = 16;
+        System.out.println(Math.sqrt(num));
     }
 }

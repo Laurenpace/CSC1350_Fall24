@@ -15,7 +15,7 @@ public class MixedDatatypes {
 //        int averageError2 = (x + y) / 2.0;
         int averageCast = (int)(x+y /2.0);
         System.out.println(averageCast);
-//
+
         double doubleAverage = (x + y) / 2;
         System.out.println(doubleAverage);
 

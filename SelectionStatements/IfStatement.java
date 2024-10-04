@@ -17,20 +17,6 @@ public class IfStatement {
         }
 
 
-//
-//        ///////////
-        System.out.print("Enter a 5: ");
-        if (in.nextInt() == 5)
-            System.out.println("Good job, you entered a 5");
-        else System.out.println("Try again");
-//
-//
-
-//        /////
-
-        // Valid: Can have one line in body of if/else
-        // statement with no braces
-
 
 
     }

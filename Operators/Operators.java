@@ -24,7 +24,7 @@ public class Operators {
         //Subtraction
         int difference = num1 - num2;
         System.out.println("10 - 5 = " + difference);
-        System.out.println("10 - 5 = " + (10 / 5));
+        System.out.println("10 - 5 = " + (10 - 5));
         //Multiplication
         int product = num1 * num2;
         System.out.println("10 * 5 = " + product);

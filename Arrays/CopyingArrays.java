@@ -7,6 +7,12 @@ public class CopyingArrays {
         int[] arr1 = new int[5];
         arr1[1] = 2;
         arr1[2] = 5;
+
+        int[] loopCopy = new int[arr1.length];
+
+        for (int i = 0; i < arr1.length; i++) {
+            loopCopy[i] = arr1[i];
+        }
         int[] copyOfArray = Arrays.copyOf(arr1, arr1.length);
         copyOfArray[0] = 4;
 

@@ -1,4 +1,4 @@
-package CSC1350_Fall24.Loops;
+package CSC1350_Fall24.Arrays;
 
 public class foreach {
     public static void main(String[] args) {

@@ -10,7 +10,7 @@ public class DoWhile {
             System.out.println("Enter a number less than 10");
             value = in.nextInt();
         }
-        while(value < 10);
+        while(value > 10);
         System.out.println("Exited");
     }
 }

@@ -85,10 +85,10 @@ public class Operators {
         System.out.println("num assigned to 0++: " + num);
         System.out.println("result of 0++: " + count);
 
-//        count++;
-//        count = count + 1;
-//        count += 1;
-        count = 0;
+        count++;
+        count = count + 1;
+        count += 1;
+//        count = 0;
         num = 0;
         num = ++count; //value of count incremented then returned (assigned)
         System.out.println("num assigned to ++0: " + num);

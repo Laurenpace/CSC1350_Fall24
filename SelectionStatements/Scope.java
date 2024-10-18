@@ -13,6 +13,8 @@ public class Scope {
             System.out.println("You entered a number greater than 10.");
             output += "more string";
             System.out.println(output);
+            String s = "asdf";
+            System.out.println(s);
         }
         System.out.println(output);
 

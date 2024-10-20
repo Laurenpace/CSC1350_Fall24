@@ -21,5 +21,8 @@ public class For {
             System.out.print(k + "...");
         }
 
+        for (int i = 10; i > 2 ; i = i - 3) {
+            System.out.println(i);
+        }
     }
 }

@@ -15,7 +15,7 @@ public class ClearNewLineCharacterAfterNum {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-       // in.nextLine(); //add this if using nextLine after something like nextInt
+//        in.nextLine(); //add this if using nextLine after something like nextInt
 
         for (int i = 0; i < n; i++) {
             System.out.println(in.nextLine());

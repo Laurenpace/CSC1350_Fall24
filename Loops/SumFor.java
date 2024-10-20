@@ -25,9 +25,10 @@ public class SumFor {
         int n = in.nextInt();
         int sum = 0; //declare out here so we can print it after loop
 //        int i = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 10; i > n; i++) {
             sum += in.nextInt();
+
         }
-        System.out.println("Sum = " + sum);
+
     }
 }

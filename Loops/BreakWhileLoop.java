@@ -2,7 +2,7 @@ package CSC1350_Fall24.Loops;
 
 import java.util.Scanner;
 
-public class UserInputSum {
+public class BreakWhileLoop {
     public static void main(String[] args) {
         double number, sum = 0.0;
         Scanner input = new Scanner(System.in);

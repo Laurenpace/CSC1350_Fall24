@@ -11,6 +11,7 @@ public class InitializeAnArrayFromUserAndPrint {
         int arraySize = in.nextInt();
         int[] myArray = new int[arraySize];
 
+        System.out.println("enter elements");
         //iterate through length of array
         //don't have to do .length - 1 because of the less than in the for loop
         for (int i = 0; i < myArray.length; i++) {

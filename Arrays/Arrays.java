@@ -12,5 +12,6 @@ public class Arrays {
         double[] arrayOfDoubles = {4.0, 3.2, 4.5};
         System.out.println("hi");
 
+
     }
 }

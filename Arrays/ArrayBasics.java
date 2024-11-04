@@ -8,7 +8,7 @@ public class ArrayBasics {
         double[] arrayOfDoubles = {4.0, 3.2, 4.5};
 
         String[] arrString = {"a string", "another"};
-
+        arrString[0] = "asdfasdf";
 
         int[] arrayName = new int[5000];
 
@@ -35,9 +35,10 @@ public class ArrayBasics {
         for (int i = 0; i < s.length; i++) {
             if(s[i].equals("banana")){
                 System.out.println(i);
-                indexOfBanana = 0;
+                indexOfBanana = i;
             }
         }
+
 
         System.out.println(indexOfBanana);
 

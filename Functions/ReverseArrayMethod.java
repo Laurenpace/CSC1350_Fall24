@@ -1,4 +1,4 @@
-package CSC1350_Spring24.Arrays;
+package CSC1350_Fall24.Functions;
 
 public class ReverseArrayMethod {
     public static void main(String[] args) {

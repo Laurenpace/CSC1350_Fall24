@@ -7,7 +7,17 @@ public class PromptingUntilValidEntry {
         Scanner in = new Scanner(System.in);
         boolean valid = true;
         double input;
-        //just one way of doing this
+
+        System.out.print("Please enter a positive value < 100: ");
+        input = in.nextDouble();
+
+        while(input >= 100 || input <= 0){
+            System.out.println("Invalid input.");
+            System.out.print("Please enter a positive value < 100: ");
+            input = in.nextDouble();
+        }
+        ///////////
+        //another way of doing this
         while (valid){
 
             System.out.print("Please enter a positive value < 100: ");
@@ -22,14 +32,7 @@ public class PromptingUntilValidEntry {
 
 
         //////////
-        System.out.print("Please enter a positive value < 100: ");
-        input = in.nextDouble();
-
-        while(input >= 100 || input <= 0){
-            System.out.println("Invalid input.");
-            System.out.print("Please enter a positive value < 100: ");
-            input = in.nextDouble();
-        }
+      
 
     }
 }

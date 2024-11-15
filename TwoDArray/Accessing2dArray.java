@@ -2,9 +2,8 @@ package CSC1350_Fall24.TwoDArray;
 
 public class Accessing2dArray {
     public static void main(String[] args) {
-        int[][] my2dMatrix = {{1,3,4,5},
-                            {11,15,2,3},
-                            {2,14,1,1},
+        int[] one = {1, 2, 3};
+        int[][] my2dMatrix = {{1,3,4,5},{11,15,2,3},{2,14,1,1},
                             {3,12,32,5},
                             {4,5,21,87}};
 

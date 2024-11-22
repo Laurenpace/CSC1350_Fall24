@@ -3,10 +3,12 @@ package CSC1350_Fall24.Sorting_Searching;
 public class BubbleSort {
     public static void main(String[] args) {
 //        int[] arr = {5, 2, 3, 7, 1};
-        int[] arr = {1, 2, 5, 4, 7, 8, 9, 10};
-        printArray(arr);
+//        int[] arr = {1, 2, 5, 4, 7, 8, 9, 10};
+        int[] arr = {4, 5, 1, 3, 2};
+
+//        printArray(arr);
         bubbleSort(arr);
-        printArray(arr);
+//        printArray(arr);
 
     }
     public static void bubbleSort(int[] array){

@@ -4,17 +4,20 @@ public class LinearSearch {
     public static int linearSearch(int[] values, int searchVal) {
         int pos = -1;
         int i = 0;
+
         boolean finishedSearch = false;
         while (!finishedSearch){
             if (i == values.length) {
                 finishedSearch = true;
             }
             else if (values[i] == searchVal) {
+                
                 pos = i;
                 finishedSearch = true;
             }
             i++;
         }
+        System.out.println(i);
         return pos;
     }
 
@@ -31,8 +34,9 @@ public class LinearSearch {
 //    }
 
         public static void main(String[] args) {
-        int[] myArray = {4, 9, 100, 4, 6, 12};
-        int pos = linearSearch(myArray, 1900);
+        int[] myArray = {1, 6, 2, 13, 20};
+//        int[] myArray = {4, 9, 100, 4, 6, 12};
+        int pos = linearSearch(myArray, 13);
 
         if (pos != -1) {
             System.out.println("Found at position: " + pos);

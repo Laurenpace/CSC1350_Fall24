@@ -11,6 +11,8 @@ public class minesweeper {
         int lines = in.nextInt();
 
 
+        
+
         char[][] board = new char[row][column];
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {

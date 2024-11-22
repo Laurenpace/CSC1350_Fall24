@@ -1,4 +1,4 @@
-package CSC1350_Spring24.OOP.StudentCRUD;
+package CSC1350_Fall24.OOP.StudentCRUD;
 
 import java.util.*;
 

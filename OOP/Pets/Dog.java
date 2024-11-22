@@ -1,6 +1,7 @@
 package CSC1350_Fall24.OOP.Pets;
 
 
+
 public class Dog {
     private String name;
     private int age;
@@ -25,8 +26,8 @@ public class Dog {
 
     public Dog() {
         numberOfDogs++;
-
     }
+
 
     public String getName() {
         return name;
@@ -50,5 +51,8 @@ public class Dog {
 
     public void setBreed(String breed) {
         this.breed = breed;
+    }
+    public void print(){
+        System.out.println(name + age + breed);
     }
 }

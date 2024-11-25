@@ -3,26 +3,21 @@ package CSC1350_Fall24.OOP.StudentCRUD;
 import java.util.ArrayList;
 
 public class Student {
+
     private String name;
     private int ID; //89 num
     private String major;
 
-//    public boolean isEnrolled() {
-//        return isEnrolled;
-//    }
-//
-//    public void setEnrolled(boolean enrolled) {
-//        isEnrolled = enrolled;
-//    }
-//
     private boolean isEnrolled;
 
+    public static int IDCount = 0;
+
     private ArrayList<Course> courses = new ArrayList<>();
-    public Student(String name, int ID) {
+
+    public Student(String name) {
         this.name = name;
-        this.ID = ID;
+        this.ID = createID();
         this.major = "undeclared";
-//        this.isEnrolled = true;
     }
 
     public String getName() {
@@ -37,9 +32,7 @@ public class Student {
         return ID;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
-    }
+    //no setter for ID, want it to be immutable
 
     public String getMajor() {
         return major;
@@ -56,5 +49,10 @@ public class Student {
     public void printInfo(){
         System.out.println(name + " " + major);
 
+    }
+
+    private int createID(){
+        IDCount++;
+        return Integer.parseInt(89 + "" + IDCount);
     }
 }

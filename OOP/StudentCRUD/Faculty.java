@@ -6,7 +6,7 @@ public class Faculty {
     private String name;
     private int ID;
 
-    private ArrayList<Course> courses;
+    private ArrayList<Course> courses= new ArrayList<>();
     public Faculty(String name, int ID) {
         this.name = name;
         this.ID = ID;

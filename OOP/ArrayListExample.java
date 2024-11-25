@@ -8,14 +8,21 @@ public class ArrayListExample {
     public static void main(String[] args) {
         ArrayList<Integer > integerArrayList = new ArrayList<>();
         integerArrayList.add(5);
-        integerArrayList.add(5);
-        integerArrayList.add(5);
-        integerArrayList.add(5);
-        integerArrayList.add(5);
-        integerArrayList.add(5);
-        integerArrayList.add(5);
+        integerArrayList.add(8);
+        integerArrayList.add(8);
+        integerArrayList.add(8);
+        integerArrayList.remove(2);
+        integerArrayList.size();
+        System.out.println(integerArrayList.get(0));
 
-        ArrayList<Dog> dogs = new ArrayList<Dog>();
+        for(Integer i : integerArrayList){
+            System.out.println(i);
+        }
+        for (int i = 0; i < integerArrayList.size(); i++) {
+            System.out.println(integerArrayList.get(i));
+        }
+
+        ArrayList<Dog> dogs = new ArrayList<>();
         dogs.add(new Dog("Fido", 3,"Doberman"));
         dogs.add( new Dog("Woof", 1, "Husky"));
 

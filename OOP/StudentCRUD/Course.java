@@ -12,6 +12,8 @@ public class Course {
     }
 
     public void setInstructor(Faculty instructor) {
+        instructor.addCourse(this);
+
         this.instructor = instructor;
     }
 

@@ -23,7 +23,4 @@ public class Course {
         s.addCourse(this);
     }
 
-    public void dropStudent(Student s){
-        students.remove(s);
-    }
 }
